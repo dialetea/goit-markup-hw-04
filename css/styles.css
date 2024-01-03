@@ -322,6 +322,7 @@ gap: 24px;
 
 .social-icons-list{
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 24px;
     list-style: none;
@@ -339,12 +340,13 @@ gap: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .social-icon-link:hover, .social-icon-link:focus{
     background-color: #404BBF;
 }
 .icon-item{
-    fill:#f4f4fd;
+    fill:#F4F4FD;
     
 }
 .card-image{
