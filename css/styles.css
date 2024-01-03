@@ -360,8 +360,25 @@ padding: 32px 0;
 .fourth-section-paragraph{
     text-align: center;
 }
+/*Fifth Section*/
+.fifth-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 
+}
+.fifth-section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
+   
 
+}
+.fifth-section-list{
+    display: flex;
+    gap:24px;
+}
 /*Footer*/
 
 .footer {
