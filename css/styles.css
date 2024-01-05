@@ -26,7 +26,7 @@
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0;
-    box-shadow: cu valorile 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .accent-header{
     color: #2e2f42;
@@ -397,8 +397,11 @@ padding: 32px 0;
 }
 .fifth-section-link:hover, .fifth-section-link:focus {
     color: #404bbf;
+    border-color: #404bbf;
 }
-
+.fifth-section-svg{
+    fill:currentColor;
+}
 /*Footer*/
 
 .footer {
