@@ -378,6 +378,7 @@ padding: 32px 0;
 .fifth-section-list{
     display: flex;
     gap:24px;
+    list-style: none;
 }
 
 .fifth-section-item-list{
@@ -397,10 +398,7 @@ padding: 32px 0;
 .fifth-section-link:hover, .fifth-section-link:focus {
     color: #404bbf;
 }
-.fifth-section-svg{
-    width:104;
-    height:56;
-}
+
 /*Footer*/
 
 .footer {
