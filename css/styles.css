@@ -407,8 +407,7 @@ padding: 32px 0;
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    display: flex;
-    align-items: baseline;
+ 
 }
 
 .footer-paragraph {
@@ -438,6 +437,8 @@ padding: 32px 0;
         text-transform: uppercase;
 }
 .footer-container{
+    display: flex;
+    align-items: baseline;
     margin-left:156px;
     gap: 120px;
 }
@@ -449,10 +450,14 @@ padding: 32px 0;
     color: #FFFFFFFF;
     margin-bottom: 16px;
 }
+.logo-paragraph{
+margin-right: 120px;
+}
 .footer-list{
     display: flex;
     gap:16px;
     list-style:none;
+    padding-left: 0;
 }
 .footer-list-item{
     width: 40px;
@@ -475,7 +480,9 @@ padding: 32px 0;
 .footer-icon-svg{
     fill:#f4f4f4fd;
 }
-
+.footer-socials{
+    align-items: baseline;
+}
 /*Portfolio*/
 img {
     display: block
