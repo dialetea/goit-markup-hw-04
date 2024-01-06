@@ -241,6 +241,7 @@ margin:auto;
     
     align-items: flex-start;
     gap:24px;
+    padding-left: 0;
     
 }
 .third-section.list li {
@@ -319,6 +320,8 @@ gap: 24px;
     background-color: #FFFFFFFF;   
     text-align: center;
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   
 
@@ -366,6 +369,7 @@ gap: 24px;
 }
 .card-image{
     display: block;
+    width: 100%;
 
 }
 .name-and-job{
