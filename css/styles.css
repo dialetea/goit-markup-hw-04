@@ -50,11 +50,12 @@
     text-decoration: none;
     display: block;
     
+    
 }
 
 .link:hover, link:focus {
     color: #404BBF;
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -343,7 +344,7 @@
 }
 
 .icon-item {
-    fill: #F4F4FD;
+    fill: #f4f4f4fd;
 }
 
 /*Fifth Section*/
